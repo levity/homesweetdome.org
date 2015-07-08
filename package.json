@@ -1,0 +1,14 @@
+{
+  "name": "homesweetdome.org",
+  "private": true,
+  "version": "0.1.0",
+  "dependencies": {
+    "bezier-easing": "^1.0.0",
+    "browserify": "^10.2.4",
+    "raf": "^3.0.0",
+    "watchify": "^3.2.3"
+  },
+  "scripts": {
+    "watch": "./node_modules/.bin/watchify js/index.js -o index.js"
+  }
+}
